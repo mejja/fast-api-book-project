@@ -3,7 +3,7 @@ name: Deployment Pipeline of Fast API Book App
 on:
   push:
     branches:
-      - main  # Trigger on push to the 'main' branch (usually after PR merge)
+      - main  # Trigger on push to the 'main' branch
 
 jobs:
   deploy:
